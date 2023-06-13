@@ -54,7 +54,7 @@ h2 {
   font-family: "Bebas Neue", cursive;
 }
 
-.section-bebidas {
+.section-bebidas, .section-pizzas, .section-papas, .section-cocteles {
   width: 100%;
   height: 700px;
   background-image: url(../assets/img/bebida.jpg);
@@ -63,27 +63,15 @@ h2 {
 }
 
 .section-cocteles {
-  width: 100%;
-  height: 700px;
   background-image: url(../assets/img/coctelfondo.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .section-papas {
-  width: 100%;
-  height: 700px;
   background-image: url(../assets/img/papas.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .section-pizzas {
-  width: 100%;
-  height: 700px;
   background-image: url(../assets/img/pizza.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 @media (max-width: 768px) {

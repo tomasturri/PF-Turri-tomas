@@ -1,7 +1,5 @@
 .section-principal {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    @include grid;
     width: 100%;
     height: auto;
     background-image: url(../assets/img/inicio.jpg);
@@ -15,6 +13,6 @@ img {
 }
 
 h2 {
-    color: white;
+    color: $color-principal;
     font-family: 'Bebas Neue', cursive;
 }
