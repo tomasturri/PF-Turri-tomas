@@ -1,0 +1,20 @@
+.section-principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/img/inicio.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
